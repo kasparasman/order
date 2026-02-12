@@ -1,0 +1,82 @@
+# --- Intelligence Pipeline (The Recipe) ---
+
+product_scrape_task:
+  description: >
+    PHASE 1: Raw Fact Extraction.
+    Access {amazon_url} and extract the product title, features, pricing, and technical claims. 
+    Your objective is to provide the "Source Truth"—no interpretation, just the cold data.
+  expected_output: >
+    A structured data report of the product's Amazon listing.
+  agent: product_agent
+
+product_image_analysis_task:
+  description: >
+    PHASE 2: Visual Intelligence sweep.
+    Analyze {product_image_url} to identify the packaging aesthetic, "vibe" (Digital Brutalism, Quiet Luxury, Clinical), and any visual certifications.
+    You are searching for the product's "Visual Soul."
+  expected_output: >
+    A detailed visual analysis of the product's physical identity.
+  agent: product_agent
+
+product_strategic_intelligence_task:
+  description: >
+    PHASE 3: Strategic Synthesis.
+    Merge the Facts (Task 1) and Vision (Task 2) to define the product's "Essential Truth."
+    Position this product within the Anthropos Network—is it an anchor for "Biological Proof" or a performance catalyst?
+  expected_output: >
+    A comprehensive Strategic Product Profile.
+  agent: product_agent
+
+visual_dna_definition_task:
+  description: >
+    Define the "Human Captcha" visual laws for this order. 
+    Using the Strategic Profile, clarify when the Network's content requires LIMITLESS intensity (energy arcs, saturation) 
+    or ANTHROPOS structural authority (Digital Brutalism, geometry).
+  expected_output: >
+    A "Visual DNA Guide" (The Ingredients) for the decentralized creators.
+  agent: visual_dna_agent
+
+distill_high_impact_value_task:
+  description: >
+    Extract the "Arthur Insight" (Knowledge Core) from {expert_input}.
+    Define the Audience Archetype (The Initiate, The Skeptic, or The High-Performer).
+    Provide 3 distinct knowledge variations, stripping away technical jargon to reach "High-Status" truth.
+  expected_output: >
+    A Value Core document with Audience Targeting and 3 knowledge variations.
+  agent: value_agent
+
+calculate_framework_laws_task:
+  description: >
+    Apply the 4 Laws of Short-Form Physics to the order context.
+    Define the exact mathematical requirements for viral hooks, 135-145 WPM cadence, and pattern-frequency loops.
+    Ensure "Digital Style" grammar laws are enforced to prevent "AI Slop" detection.
+  expected_output: >
+    A "Physics & Grammar Guardrail" document.
+  agent: physics_agent
+
+create_narrative_essence_task:
+  description: >
+    Build the "Logic Spine" by collaborating with the Venora Persona.
+    1. Select the best Value variation for the Audience.
+    2. Frame it with a viral hook using the Physics Guardrails.
+    3. Draft the "80% Essence" logic using "Internet Native" language (slang, idioms).
+    
+    CRITICAL: Focus on RELATABILITY and CHARISMA. Ensure it feels like a raw creator tip.
+    Tone: Flippant, certain, high-status.
+  expected_output: >
+    The Narrative Essence Brief (UGC Hooks, Logic Spine, Internet Native phrasing).
+  agent: marketing_agent
+
+finalize_videographer_brief_task:
+  description: >
+    The Network Orchestrator curates all Intelligence into the final "Dossier."
+    Part A: Visual & Product DNA (The Intelligence).
+    Part B: Strategic Value Core + Audience Profile (The Logic).
+    Part C: 80% Narrative Essence (The Signal).
+    
+    ENSURE the brief enforces the "Digital Franchise" rule:
+    "We provide the brain; you provide the body. This is the logic; the execution is your freedom."
+    List NEGATIVE CONSTRAINTS (NO formal transitions, NO AI-speak, NO desaturation).
+  expected_output: >
+    The Final Anthropos Network Dossier - a high-status Markdown manual for decentralized agents.
+  agent: manager
