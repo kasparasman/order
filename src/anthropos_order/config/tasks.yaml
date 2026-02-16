@@ -1,82 +1,119 @@
-# --- Intelligence Pipeline (The Recipe) ---
+# --- Intelligence Pipeline (The Field Manual) ---
 
 product_scrape_task:
   description: >
     PHASE 1: Raw Fact Extraction.
-    Access {amazon_url} and extract the product title, features, pricing, and technical claims. 
-    Your objective is to provide the "Source Truth"—no interpretation, just the cold data.
+    Access {amazon_url} and extract the product title and description.
+    Focus on finding the "mandatory anchors" (e.g., certification seals, dosage numbers).
   expected_output: >
-    A structured data report of the product's Amazon listing.
+    FACT LIST:
+    - [Key Title Info]
+    - [Specific Claims/Dosage]
+    - [Certifications]
   agent: product_agent
 
-product_image_analysis_task:
+product_image_signal_task:
   description: >
-    PHASE 2: Visual Intelligence sweep.
-    Analyze {product_image_url} to identify the packaging aesthetic, "vibe" (Digital Brutalism, Quiet Luxury, Clinical), and any visual certifications.
-    You are searching for the product's "Visual Soul."
+    PHASE 2: Visual Signal Extraction.
+    Analyze {product_image_url} to identify the most eye-catching visual elements.
+    What are the "Gold" details? (e.g., the texture of the gel, the specific label callouts).
   expected_output: >
-    A detailed visual analysis of the product's physical identity.
+    VISUAL SIGNAL LIST: 3-5 high-impact visual cues for the Ambassador.
   agent: product_agent
 
-product_strategic_intelligence_task:
+intelligence_install_task:
   description: >
-    PHASE 3: Strategic Synthesis.
-    Merge the Facts (Task 1) and Vision (Task 2) to define the product's "Essential Truth."
-    Position this product within the Anthropos Network—is it an anchor for "Biological Proof" or a performance catalyst?
+    PHASE 3: Intelligence Install (Section 1).
+    Translate {expert_input} and product facts into the "Directives" for Section 1.
+    
+    Translate all strategic abstractions into human-friendly talking points.
+    Requirements:
+    1. The Core Problem (What's broken in the viewer's world?)
+    2. The Hidden Insight (Why do other solutions fail them?)
+    3. The Mechanism (Explain how this product fixes the problem, using a simple metaphor).
+    4. 3 Talking Points (Specific lines or facts the ambassador can use).
+    
+    Tone: High status but collaborative. Avoid academic words like "quadrants" or "biological mismatches."
   expected_output: >
-    A comprehensive Strategic Product Profile.
-  agent: product_agent
-
-visual_dna_definition_task:
-  description: >
-    Define the "Human Captcha" visual laws for this order. 
-    Using the Strategic Profile, clarify when the Network's content requires LIMITLESS intensity (energy arcs, saturation) 
-    or ANTHROPOS structural authority (Digital Brutalism, geometry).
-  expected_output: >
-    A "Visual DNA Guide" (The Ingredients) for the decentralized creators.
-  agent: visual_dna_agent
-
-distill_high_impact_value_task:
-  description: >
-    Extract the "Arthur Insight" (Knowledge Core) from {expert_input}.
-    Define the Audience Archetype (The Initiate, The Skeptic, or The High-Performer).
-    Provide 3 distinct knowledge variations, stripping away technical jargon to reach "High-Status" truth.
-  expected_output: >
-    A Value Core document with Audience Targeting and 3 knowledge variations.
+    SECTION 1 content (The Setup) using human-centric language.
   agent: value_agent
 
-calculate_framework_laws_task:
+market_frame_task:
   description: >
-    Apply the 4 Laws of Short-Form Physics to the order context.
-    Define the exact mathematical requirements for viral hooks, 135-145 WPM cadence, and pattern-frequency loops.
-    Ensure "Digital Style" grammar laws are enforced to prevent "AI Slop" detection.
+    PHASE 4: Market Frame (Section 2).
+    Define the Viewer's Journey. 
+    Skip the "audience archetype" labels. Describe the person:
+    - Their Day (What does their frustration feel like today?)
+    - The Transformation (How do they feel after the 'baseline correction'?)
+    - The Objection (What are they skeptical about and why?)
   expected_output: >
-    A "Physics & Grammar Guardrail" document.
+    SECTION 2 content (The Viewer's Story).
+  agent: value_agent
+
+physics_guardrails_task:
+  description: >
+    PHASE 5: Conversion Laws (Section 4).
+    Define the "Laws of Physics" for this specific video and explain the WHY behind each one.
+    
+    1. The 3-Second Rule: Why do we need the product visible by 3s? (Rescuing attention before the scroll).
+    2. The 5-Second Beat: Why pattern interrupts every 3-5s? (Beating the dopamine decay).
+    3. The 7-Second Rule: Why text must clear? (Preventing cognitive load/clutter).
+    4. The Non-Linearity Test: Why must it survive entry at second 5? (The 'discovery' nature of the feed).
+    
+    Select ONE template from Layer 1 and explain why it fits this product.
+  expected_output: >
+    SECTION 4 content (The Laws & The Why).
   agent: physics_agent
 
-create_narrative_essence_task:
+execution_arc_task:
   description: >
-    Build the "Logic Spine" by collaborating with the Venora Persona.
-    1. Select the best Value variation for the Audience.
-    2. Frame it with a viral hook using the Physics Guardrails.
-    3. Draft the "80% Essence" logic using "Internet Native" language (slang, idioms).
+    PHASE 6: Execution Arc (Section 3).
+    Pre-fill 80% of the field manual script skeleton. Map the intelligence into Phases 1-3.
     
-    CRITICAL: Focus on RELATABILITY and CHARISMA. Ensure it feels like a raw creator tip.
-    Tone: Flippant, certain, high-status.
+    ## PHASE 1 — THE HOOK (0–6s)
+    - Provide 2 ACTUAL hook lines (Draft scripts).
+    - Describe the "Energy" of the disruption.
+    
+    ## PHASE 2 — THE BODY (6–20s)
+    - Provide 1 clear VO line for the "Mechanism."
+    - Describe 3 visual scene changes (e.g., Macro shot of gel, 3D cell wall, High-performer in flow).
+    - Break the "Trust-Friction Loop" with a specific proof point.
+    
+    ## PHASE 3 — THE CLOSE (Final 20–30%)
+    - Provide the EXACT CTA line (verbal + text).
+    - Describe the "Highest Desire" frame (The 'After' state).
+    
+    Avoid all abstract strategy talk in the output. Provide concrete scripts and visual cues.
   expected_output: >
-    The Narrative Essence Brief (UGC Hooks, Logic Spine, Internet Native phrasing).
+    SECTION 3 content (The Script Skeleton) with at least 80% pre-filled script fragments.
   agent: marketing_agent
 
-finalize_videographer_brief_task:
+physics_audit_task:
   description: >
-    The Network Orchestrator curates all Intelligence into the final "Dossier."
-    Part A: Visual & Product DNA (The Intelligence).
-    Part B: Strategic Value Core + Audience Profile (The Logic).
-    Part C: 80% Narrative Essence (The Signal).
-    
-    ENSURE the brief enforces the "Digital Franchise" rule:
-    "We provide the brain; you provide the body. This is the logic; the execution is your freedom."
-    List NEGATIVE CONSTRAINTS (NO formal transitions, NO AI-speak, NO desaturation).
+    PHASE 7: Ambassador's Audit & Polish.
+    Review the SECTION 3 skeleton. Instead of a PASS/FAIL matrix, provide "Ambassador Tips."
+    Identify any "Text Clog" or "Engagement Gaps" and explain how to fix them.
+    Ensure the "Teaching" continues here—don't just audit, empower.
   expected_output: >
-    The Final Anthropos Network Dossier - a high-status Markdown manual for decentralized agents.
+    A list of 3-5 "Production Guardrails & Tips" that explain how to optimize the execution for conversion.
+  agent: physics_agent
+
+finalize_order_brief_task:
+  description: >
+    PHASE 8: Assemble the Field Manual.
+    Assemble the brief into a single, high-activation document.
+    
+    Structure:
+    # FIELD MANUAL: [PRODUCT NAME]
+    ## 1. THE SETUP (Section 1) - Belief install & mechanism.
+    ## 2. THE VIEWER (Section 2) - Their story & skepticism.
+    ## 3. THE SCRIPT SKELETON (Section 3) - Pre-filled Hook/Body/Close.
+    ## 4. THE LAWS OF CONVERSION (Section 4) - Physics & The Why.
+    ## 5. CREATIVE AUTONOMY ZONE (Section 5) - Visual Texture & Vibe.
+    
+    Remove all internal "Compliance Matrix" tables or pass/fail labels. 
+    Ensure the brief sounds like a "Tip from a Peer" (Venora's influence).
+  expected_output: >
+    The Final Field Manual in clean Markdown.
   agent: manager
+  output_file: 'final_order.md'

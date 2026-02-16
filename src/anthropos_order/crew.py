@@ -8,21 +8,13 @@ from typing import List
 class AnthroposOrder():
     """AnthroposOrder crew"""
 
-    agents: List[BaseAgent]
-    tasks: List[Task]
+    agents_config = 'config/agents.yaml'
+    tasks_config = 'config/tasks.yaml'
 
     @agent
     def manager(self) -> Agent:
         return Agent(
             config=self.agents_config['manager'],
-            verbose=True,
-            allow_delegation=True
-        )
-
-    @agent
-    def visual_dna_agent(self) -> Agent:
-        return Agent(
-            config=self.agents_config['visual_dna_agent'],
             verbose=True
         )
 
@@ -31,13 +23,6 @@ class AnthroposOrder():
         return Agent(
             config=self.agents_config['product_agent'],
             tools=[ScrapeWebsiteTool()],
-            verbose=True
-        )
-
-    @agent
-    def venora_persona_agent(self) -> Agent:
-        return Agent(
-            config=self.agents_config['venora_persona_agent'],
             verbose=True
         )
 
@@ -62,6 +47,20 @@ class AnthroposOrder():
             verbose=True
         )
 
+    @agent
+    def venora_persona_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['venora_persona_agent'],
+            verbose=True
+        )
+
+    @agent
+    def visual_dna_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['visual_dna_agent'],
+            verbose=True
+        )
+
     @task
     def product_scrape_task(self) -> Task:
         return Task(
@@ -69,59 +68,56 @@ class AnthroposOrder():
         )
 
     @task
-    def product_image_analysis_task(self) -> Task:
+    def product_image_signal_task(self) -> Task:
         return Task(
-            config=self.tasks_config['product_image_analysis_task'],
+            config=self.tasks_config['product_image_signal_task'],
         )
 
     @task
-    def product_strategic_intelligence_task(self) -> Task:
+    def intelligence_install_task(self) -> Task:
         return Task(
-            config=self.tasks_config['product_strategic_intelligence_task'],
+            config=self.tasks_config['intelligence_install_task'],
         )
 
     @task
-    def visual_dna_definition_task(self) -> Task:
+    def market_frame_task(self) -> Task:
         return Task(
-            config=self.tasks_config['visual_dna_definition_task'],
+            config=self.tasks_config['market_frame_task'],
         )
 
     @task
-    def distill_high_impact_value_task(self) -> Task:
+    def physics_guardrails_task(self) -> Task:
         return Task(
-            config=self.tasks_config['distill_high_impact_value_task'],
+            config=self.tasks_config['physics_guardrails_task'],
         )
 
     @task
-    def calculate_framework_laws_task(self) -> Task:
+    def execution_arc_task(self) -> Task:
         return Task(
-            config=self.tasks_config['calculate_framework_laws_task'],
+            config=self.tasks_config['execution_arc_task'],
         )
 
     @task
-    def create_narrative_essence_task(self) -> Task:
+    def physics_audit_task(self) -> Task:
         return Task(
-            config=self.tasks_config['create_narrative_essence_task'],
+            config=self.tasks_config['physics_audit_task'],
         )
 
     @task
-    def finalize_videographer_brief_task(self) -> Task:
+    def finalize_order_brief_task(self) -> Task:
         return Task(
-            config=self.tasks_config['finalize_videographer_brief_task'],
-            output_file='final_order.md'
+            config=self.tasks_config['finalize_order_brief_task'],
         )
 
     @crew
     def crew(self) -> Crew:
         """Creates the AnthroposOrder crew"""
         return Crew(
-            agents=[agent for agent in self.agents if agent.role != self.manager().role],
+            agents=self.agents,
             tasks=self.tasks,
-            process=Process.hierarchical,
-            manager_agent=self.manager(),
+            process=Process.sequential,
             verbose=True,
-            output_log_file='crew_execution.log',
-            tracing=True
+            output_log_file='crew_execution.log'
         )
 
 
