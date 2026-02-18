@@ -48,9 +48,9 @@ class AnthroposOrder():
         )
 
     @agent
-    def venora_persona_agent(self) -> Agent:
+    def persona_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['venora_persona_agent'],
+            config=self.agents_config['persona_agent'],
             verbose=True
         )
 
@@ -77,36 +77,67 @@ class AnthroposOrder():
     def intelligence_install_task(self) -> Task:
         return Task(
             config=self.tasks_config['intelligence_install_task'],
+            context=[self.product_scrape_task(), self.product_image_signal_task()]
         )
 
     @task
-    def market_frame_task(self) -> Task:
+    def finalize_value_task(self) -> Task:
         return Task(
-            config=self.tasks_config['market_frame_task'],
+            config=self.tasks_config['finalize_value_task'],
+            context=[self.intelligence_install_task()]
         )
 
     @task
     def physics_guardrails_task(self) -> Task:
         return Task(
             config=self.tasks_config['physics_guardrails_task'],
+            context=[self.finalize_value_task(), self.product_scrape_task()]
+        )
+
+    @task
+    def fashion_aesthetic_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['fashion_aesthetic_task'],
+            context=[self.product_scrape_task()]
         )
 
     @task
     def execution_arc_task(self) -> Task:
         return Task(
             config=self.tasks_config['execution_arc_task'],
+            context=[
+                self.finalize_value_task(),
+                self.physics_guardrails_task(),
+                self.fashion_aesthetic_task(),
+                self.product_scrape_task()
+            ]
+        )
+
+    @task
+    def persona_modulation_task(self) -> Task:
+        return Task(
+            config=self.tasks_config['persona_modulation_task'],
+            context=[self.execution_arc_task()]
         )
 
     @task
     def physics_audit_task(self) -> Task:
         return Task(
             config=self.tasks_config['physics_audit_task'],
+            context=[self.persona_modulation_task(), self.physics_guardrails_task()]
         )
 
     @task
     def finalize_order_brief_task(self) -> Task:
         return Task(
             config=self.tasks_config['finalize_order_brief_task'],
+            context=[
+                self.finalize_value_task(),
+                self.persona_modulation_task(),
+                self.physics_guardrails_task(),
+                self.fashion_aesthetic_task(),
+                self.physics_audit_task()
+            ]
         )
 
     @crew
