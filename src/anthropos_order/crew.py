@@ -1,7 +1,7 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
-from crewai_tools import ScrapeWebsiteTool
+from crewai_tools import ScrapeWebsiteTool, SerperDevTool
 from typing import List
 
 @CrewBase
@@ -19,31 +19,32 @@ class AnthroposOrder():
         )
 
     @agent
-    def product_agent(self) -> Agent:
+    def market_research_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['product_agent'],
+            config=self.agents_config['market_research_agent'],
+            tools=[SerperDevTool(), ScrapeWebsiteTool()],
+            verbose=True
+        )
+
+    @agent
+    def product_truth_agent(self) -> Agent:
+        return Agent(
+            config=self.agents_config['product_truth_agent'],
             tools=[ScrapeWebsiteTool()],
             verbose=True
         )
 
     @agent
-    def physics_agent(self) -> Agent:
+    def strategy_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['physics_agent'],
+            config=self.agents_config['strategy_agent'],
             verbose=True
         )
 
     @agent
-    def value_agent(self) -> Agent:
+    def script_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['value_agent'],
-            verbose=True
-        )
-
-    @agent
-    def marketing_agent(self) -> Agent:
-        return Agent(
-            config=self.agents_config['marketing_agent'],
+            config=self.agents_config['script_agent'],
             verbose=True
         )
 
@@ -55,88 +56,89 @@ class AnthroposOrder():
         )
 
     @agent
-    def visual_dna_agent(self) -> Agent:
+    def physics_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config['visual_dna_agent'],
+            config=self.agents_config['physics_agent'],
             verbose=True
         )
 
     @task
-    def product_scrape_task(self) -> Task:
+    def phase_0_objective_lock(self) -> Task:
         return Task(
-            config=self.tasks_config['product_scrape_task'],
+            config=self.tasks_config['phase_0_objective_lock'],
         )
 
     @task
-    def product_image_signal_task(self) -> Task:
+    def phase_1_avatar_selection(self) -> Task:
         return Task(
-            config=self.tasks_config['product_image_signal_task'],
+            config=self.tasks_config['phase_1_avatar_selection'],
         )
 
     @task
-    def intelligence_install_task(self) -> Task:
+    def phase_2_market_language_mining(self) -> Task:
         return Task(
-            config=self.tasks_config['intelligence_install_task'],
-            context=[self.product_scrape_task(), self.product_image_signal_task()]
+            config=self.tasks_config['phase_2_market_language_mining'],
         )
 
     @task
-    def finalize_value_task(self) -> Task:
+    def phase_3_product_truth_extraction(self) -> Task:
         return Task(
-            config=self.tasks_config['finalize_value_task'],
-            context=[self.intelligence_install_task()]
+            config=self.tasks_config['phase_3_product_truth_extraction'],
         )
 
     @task
-    def physics_guardrails_task(self) -> Task:
+    def phase_4_srw_selection(self) -> Task:
         return Task(
-            config=self.tasks_config['physics_guardrails_task'],
-            context=[self.finalize_value_task(), self.product_scrape_task()]
+            config=self.tasks_config['phase_4_srw_selection'],
+            context=[self.phase_3_product_truth_extraction()]
         )
 
     @task
-    def fashion_aesthetic_task(self) -> Task:
+    def phase_5_physics_template_commitment(self) -> Task:
         return Task(
-            config=self.tasks_config['fashion_aesthetic_task'],
-            context=[self.product_scrape_task()]
+            config=self.tasks_config['phase_5_physics_template_commitment'],
         )
 
     @task
-    def execution_arc_task(self) -> Task:
+    def phase_6_script_pack_generation(self) -> Task:
         return Task(
-            config=self.tasks_config['execution_arc_task'],
+            config=self.tasks_config['phase_6_script_pack_generation'],
             context=[
-                self.finalize_value_task(),
-                self.physics_guardrails_task(),
-                self.fashion_aesthetic_task(),
-                self.product_scrape_task()
+                self.phase_2_market_language_mining(),
+                self.phase_3_product_truth_extraction(),
+                self.phase_4_srw_selection()
             ]
         )
 
     @task
-    def persona_modulation_task(self) -> Task:
+    def phase_7_persona_modulation(self) -> Task:
         return Task(
-            config=self.tasks_config['persona_modulation_task'],
-            context=[self.execution_arc_task()]
+            config=self.tasks_config['phase_7_persona_modulation'],
+            context=[self.phase_6_script_pack_generation()]
         )
 
     @task
-    def physics_audit_task(self) -> Task:
+    def phase_8_physics_audit(self) -> Task:
         return Task(
-            config=self.tasks_config['physics_audit_task'],
-            context=[self.persona_modulation_task(), self.physics_guardrails_task()]
-        )
-
-    @task
-    def finalize_order_brief_task(self) -> Task:
-        return Task(
-            config=self.tasks_config['finalize_order_brief_task'],
+            config=self.tasks_config['phase_8_physics_audit'],
             context=[
-                self.finalize_value_task(),
-                self.persona_modulation_task(),
-                self.physics_guardrails_task(),
-                self.fashion_aesthetic_task(),
-                self.physics_audit_task()
+                self.phase_5_physics_template_commitment(),
+                self.phase_7_persona_modulation()
+            ]
+        )
+
+    @task
+    def phase_9_final_order_assembly(self) -> Task:
+        return Task(
+            config=self.tasks_config['phase_9_final_order_assembly'],
+            context=[
+                self.phase_0_objective_lock(),
+                self.phase_1_avatar_selection(),
+                self.phase_2_market_language_mining(),
+                self.phase_3_product_truth_extraction(),
+                self.phase_4_srw_selection(),
+                self.phase_6_script_pack_generation(),
+                self.phase_8_physics_audit()
             ]
         )
 

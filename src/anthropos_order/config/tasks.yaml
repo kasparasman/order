@@ -1,157 +1,109 @@
-# --- Intelligence Pipeline (The Field Manual) ---
+# src/anthropos_order/config/tasks.yaml
 
-product_scrape_task:
+phase_0_objective_lock:
   description: >
-    PHASE 1: Raw Fact Extraction.
-    Access {amazon_url} and extract the product title and description.
-    Focus on finding the "mandatory anchors" (e.g., certification seals, dosage numbers).
+    PHASE 0: Objective Lock.
+    Based on the {expert_input} and {amazon_url}, define the one-line mission statement.
+    Format: "This video sells X to Y by breaking belief Z using reason R."
   expected_output: >
-    FACT LIST:
-    - [Key Title Info]
-    - [Specific Claims/Dosage]
-    - [Certifications]
-  agent: product_agent
-
-product_image_signal_task:
-  description: >
-    PHASE 2: Visual Signal Extraction.
-    Analyze {product_image_url} to identify the most eye-catching visual elements.
-    What are the "Gold" details? (e.g., the texture of the gel, the specific label callouts).
-  expected_output: >
-    VISUAL SIGNAL LIST: 3-5 high-impact visual cues for the Ambassador.
-  agent: product_agent
-
-intelligence_install_task:
-  description: >
-    PHASE 3: Intelligence Install (Section 1).
-    Translate: {expert_input} ; and product facts into specific "One-Size Bites" of value and knowledge.
-    
-    Translate all strategic abstractions into human-friendly talking points.
-    Requirements:
-    1. The Core Problem (What's broken in the viewer's world?)
-    2. The Hidden Insight (Why do other solutions fail them?)
-    3. The Mechanism (Explain how this product fixes the problem, using a simple metaphor).
-    4. 3 Talking Points (Specific lines or facts the ambassador can use).
-    
-    Tone: High status but collaborative. Avoid academic words and complex robotic talk. Be straightforward.
-  expected_output: >
-    Strategic Value & Knowledge Bites (Section 1 & 2 draft).
-  agent: value_agent
-
-finalize_value_task:
-  description: >
-    PHASE 4: Value Finalization.
-    Review the "Knowledge Bites" produced by the Value Agent. 
-    Ensure they are clinical, authoritative, and provide the maximum "Belief Install" for the Ambassador.
-    Polish the language to ensure it is peer-level but unmistakably high-status.
-  expected_output: >
-    FINALIZED STRATEGIC VALUE & KNOWLEDGE (Sections 1 & 2).
+    One-line Objective Lock statement.
   agent: manager
 
-physics_guardrails_task:
+phase_1_avatar_selection:
   description: >
-    PHASE 5: Operational Structure (Conversion Laws).
-    Using the finalized value and product context, define the "Laws of Physics" for this video.
-    
-    1. The 3-Second Rule: Why do we need the product visible by 3s?
-    2. The 5-Second Beat: Why pattern interrupts every 3-5s?
-    3. The 7-Second Rule: Why text must clear?
-    4. The Non-Linearity Test: Why must it survive entry at second 5?
-    
-    Create the operational structure that the Ambassador must obey to ensure conversion.
+    PHASE 1: Avatar Selection (Broad Market).
+    Using Byron Sharp logic, define the widest viable avatar label.
+    Include symptom cluster (3-5 bullets), desired outcome (1 sentence + 3 bullets),
+    most common objection (1 sentence + 3 variants), and trust heuristic.
   expected_output: >
-    OPERATIONAL STRUCTURE (Section 4 content).
+    Avatar Spec (Broad Market).
+  agent: market_research_agent
+
+phase_2_market_language_mining:
+  description: >
+    PHASE 2: Market Language Mining.
+    Mine language from {amazon_url} and general market data (TikTok/Reddit).
+    Generate three language banks: Symptoms (20-50 words), Objections (10-25 words), 
+    and Trust/Heuristic words (10-25 words). Extract the Top 5 phrases.
+  expected_output: >
+    Market Language Banks + Top 5 Phrases.
+  agent: market_research_agent
+
+phase_3_product_truth_extraction:
+  description: >
+    PHASE 3: Product Truth Extraction.
+    Extract factual anchors (dosage, certs, testing) from {amazon_url}.
+    Aggregate repeated review outcomes and flag "allowed" vs "risky" claims.
+  expected_output: >
+    Product Truth Anchors (Facts, review-proof anchors, claim flags).
+  agent: product_truth_agent
+
+phase_4_srw_selection:
+  description: >
+    PHASE 4: Single Reason to Win (SRW) Selection.
+    Generate 3 candidates for the SRW, score them, and pick the winner.
+    Include claim, mechanism (2-3 sentences), belief reframe (Old -> New), 
+    and proof anchors linked to Product Truth.
+  expected_output: >
+    SRW (Claim, mechanism, belief break, proof anchors).
+  agent: strategy_agent
+
+phase_5_physics_template_commitment:
+  description: >
+    PHASE 5: Physics Template Commitment.
+    Pick 1 structural template (e.g., Hook->Demo->Proof->CTA).
+    Define the timebox plan: 0-6s, 6-20s, and Close.
+  expected_output: >
+    Structural Template + Timebox Plan.
   agent: physics_agent
 
-fashion_aesthetic_task:
+phase_6_script_pack_generation:
   description: >
-    PHASE 6: Fashion of Anthropos City.
-    Define the aesthetic "Fashion" and "Visual DNA" for this project. 
-    Inject cues for lighting, texture, and haptic sound that align with "Clinical High-Performance."
-    Think: Digital Brutalism meets Golden Hour clarity.
+    PHASE 6: Script Pack Generation (Modular).
+    Generate 6 hook variants (0-6s), 1 master body (6-20s), and 1 close CTA (final 20-30%).
+    Use phrases from the Market Language Banks and link to SRW.
+    DO NOT prescribe visuals or shots.
   expected_output: >
-    VISUAL DNA & AESTHETIC DIRECTIVES (Section 5 content).
-  agent: visual_dna_agent
+    Modular Script Pack (6 Hooks + Body + Close).
+  agent: script_agent
 
-execution_arc_task:
+phase_7_persona_modulation:
   description: >
-    PHASE 7: Marketing Synthesis (The Psychological Map).
-    Synthesize all previous intelligence into a psychological roadmap.
-    
-    NO VISUAL DIRECTIONS. The publisher handles the expression.
-    Focus on the "Understanding Upgrade."
-    
-    ## HOOK (0–6s)
-    - Emotional Tension: What is the internal pressure?
-    - Message: Core value that must appear by ≤3s.
-    
-    ## BODY (6–20s)
-    - Mechanism: What to demonstrate to prove the fix.
-    - Misconception: What specific belief are we breaking?
-    
-    ## CLOSE (Final 20–30%)
-    - Highest Desire: The vision of the outcome.
-    - Exact Action: CTA and phrasing direction.
+    PHASE 7: Persona Modulation.
+    Apply the voice of {persona_name} ({persona_description}) to the Script Pack.
+    Preserve all strategic meaning and structural integrity.
   expected_output: >
-    Psychological Roadmap (Section 2 content).
-  agent: marketing_agent
-
-persona_modulation_task:
-  description: >
-    PHASE 8: Persona Modulation.
-    Apply the following persona to the Psychological Map:
-
-    Name: {persona_name}
-    Description: {persona_description}
-
-    Rules:
-    - Do NOT change structure.
-    - Do NOT remove mechanism.
-    - Do NOT modify CTA action.
-    - Do NOT alter mental hooks.
-    - Only refine tone, word choice, status signals.
-  expected_output: >
-    The Psychological Map refined with the specific persona tone.
+    Persona-aligned Modular Script Pack.
   agent: persona_agent
 
-physics_audit_task:
+phase_8_physics_audit:
   description: >
-    PHASE 9: Ambassador's Audit (Friction Check).
-    Review the refined roadmap. Ensure the "Execution Laws" are met:
-    1. Show outcome immediately.
-    2. Keep cuts dynamic.
-    3. Do not overexplain.
-    4. Native feel only.
-    5. No commercial polish.
+    PHASE 8: Physics Audit (Pass/Fail).
+    Audit the persona-aligned script pack against physics gates:
+    - Product/Result visible ≤3s.
+    - Hook density 0-6s.
+    - On-screen text requirement (timing only).
+    - Multi-segment structure.
+    - Explicit CTA in final segment.
+    - Non-linearity test.
+    If Fail: Provide EXACT wording fixes.
   expected_output: >
-    Audit notes on friction control.
+    Audit Report (Pass/Fail) + Required Fixes.
   agent: physics_agent
 
-finalize_order_brief_task:
+phase_9_final_order_assembly:
   description: >
-    PHASE 10: Final Assembly (Cognitive Compression Protocol).
-    Assemble the final Field Manual. 
-    ENFORCE THE 4-SECTION PERFECT TEMPLATE:
-    
-    SECTION 1 — Core Lever (≤8 lines)
-    - Problem reframed.
-    - Mechanism.
-    - Why product wins.
-    - No fluff.
-    
-    SECTION 2 — Execution Map
-    - HOOK (Emotional tension, Message ≤3s)
-    - BODY (Mechanism demo, Misconception break)
-    - CLOSE (Highest desire, Exact action/CTA)
-    
-    SECTION 3 — Execution Laws (Human Language)
-    - Summarize the Physics Agent's laws from Phase 9.
-    
-    SECTION 4 — Creative Freedom
-    - Clear boundary declaration (Strategy provided; Visuals & expression are publisher's domain).
-    
-    The order MUST be shorter than 3 scroll screens. No "Viewer" section or extra headers.
+    PHASE 9: Final Order Assembly (v2.1 Template).
+    Assemble the final brief in the strictly defined v2.1 structure.
+    Ensure Section 8 explicitly declares Publisher Autonomy.
   expected_output: >
-    The Final Field Manual in clean Markdown, strictly following the 4-section protocol.
+    ## SECTION 1 — OBJECTIVE LOCK
+    ## SECTION 2 — AVATAR SPEC (broad market)
+    ## SECTION 3 — MARKET LANGUAGE BANKS (symptom / objection / trust)
+    ## SECTION 4 — PRODUCT TRUTH ANCHORS (facts + review proof + claim flags)
+    ## SECTION 5 — SINGLE REASON TO WIN (belief break + mechanism)
+    ## SECTION 6 — SCRIPT PACK (6 hooks + master body + close CTA)
+    ## SECTION 7 — PHYSICS AUDIT (pass/fail + required fixes)
+    ## SECTION 8 — PUBLISHER AUTONOMY ZONE (explicit declaration)
   agent: manager
   output_file: 'final_order.md'
