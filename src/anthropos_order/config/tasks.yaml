@@ -95,7 +95,6 @@ phase_9_final_order_assembly:
   description: >
     PHASE 9: Final Order Assembly (v2.1 Template).
     Assemble the final brief in the strictly defined v2.1 structure.
-    Ensure Section 8 explicitly declares Publisher Autonomy.
   expected_output: >
     ## SECTION 1 — OBJECTIVE LOCK
     ## SECTION 2 — AVATAR SPEC (broad market)
@@ -103,7 +102,5 @@ phase_9_final_order_assembly:
     ## SECTION 4 — PRODUCT TRUTH ANCHORS (facts + review proof + claim flags)
     ## SECTION 5 — SINGLE REASON TO WIN (belief break + mechanism)
     ## SECTION 6 — SCRIPT PACK (6 hooks + master body + close CTA)
-    ## SECTION 7 — PHYSICS AUDIT (pass/fail + required fixes)
-    ## SECTION 8 — PUBLISHER AUTONOMY ZONE (explicit declaration)
   agent: manager
   output_file: 'final_order.md'
