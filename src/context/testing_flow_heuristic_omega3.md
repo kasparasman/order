@@ -24,21 +24,33 @@
 
 ---
 
-## 4. The 75-Word Script Architecture (Medium & Conversational)
+## 4. The "Mechanism-to-Benefit" Causal Chain (Script Structure)
+*Use this logical architecture to build out the body of your script. It maps the journey from a microscopic mechanism to a macroscopic daily benefit.*
 
-*This script is precisely engineered to hit the 75-word conversational constraint while executing the Single Deep-Dive.*
+**1. The Hook (Curiosity & Promise)**
+*   *Function:* Interrupt the scroll and set an open loop.
+*   *Publisher Data:* "I make up 40% of your brain and here's what I'd do to you if you tried me:"
 
-### A. The Hook (15 words) 
-*   **Vibe**: The Single Singularity.
-*   **Voice**: *"If you start taking Omega-3 today, one massive biological shift dictates everything else."*
+**2. The Micro-Action (The Biological Mechanism)**
+*   *Function:* Establish authority. Explain *how* it works at the smallest level.
+*   *Publisher Data:* "First I would go down to your cells and make them wet and fluid."
 
-### B. The Deep-Dive Mechanism (40 words)
-*   **Vibe**: Educated, objective, revealing the hidden truth of "Rigid Cells."
-*   **Voice**: *"Your cells literally speed up. Without enough EPA and DHA, your cell membranes harden. They become slow and rigid. When you take high-quality oil, you replace those rigid walls with fluid ones, so your brain finally fires signals normally."*
+**3. The Immediate Knock-On Effect (The Translation)**
+*   *Function:* Translate the biology into a physical reality. What does "wet cells" actually mean for the body?
+*   *Publisher Data:* "This would make your thinking feel easier and more smooth."
+*   *Placeholder to Fill:* (Add 1-2 sentences expanding on how signals move faster between fluid cells, removing the feeling of being "stuck" or "foggy").
 
-### C. The CTA & The Moat (20 words)
-*   **Vibe**: The heuristic trap for competitors + Institutional Proof.
-*   **Voice**: *"But only if the EPA and DHA numbers are high enough. Flip your bottle. I'm third-party tested. Check my label."*
+**4. The Macro-Outcome (The Reversal of the Pain Point)**
+*   *Function:* The aspirational payout. What is the ultimate, daily benefit they care about?
+*   *Placeholder to Fill:* (Connect the smooth thinking to the reversal of their afternoon crash or general low energy. E.g., "Which means that heavy 3 PM brain fog vanishes, and your energy stays perfectly stable.")
+
+**5. The Qualifier/Moat (The Heuristic Trap)**
+*   *Function:* Stop them from buying a generic brand. Introduce the condition for success.
+*   *Placeholder to Fill:* (Introduce the rule. E.g., "But this biological trick only works if the EPA and DHA numbers are high enough to trigger the effect. Cheap oils won't do it.")
+
+**6. The CTA (Direct Instruction)**
+*   *Function:* Tell them exactly how to verify and take action.
+*   *Placeholder to Fill:* (E.g., "I'm third-party tested so you know the dose is real. Check my label right here.")
 
 ---
 
