@@ -52,13 +52,13 @@ Get my clinical-grade formula at AnthroposCity.com/shop."
 *   *Layer 1 Constraint:* Major persuasive energy by 0-6s. No slow intro. Core proposition visibly text by ≤3s.
 *   **Visual/Action:** Extreme close-up of the bottle, dynamic movement (e.g., dropping into frame). 
 *   **On-Screen Text (0s):** "I make up 40% of your brain."
-*   **Voiceover:** *"I make up 40% of your brain. Here’s what I’d do if you ate me:"*
+*   **Voiceover:** *"I make up 40% of your brain. Here’s what I’d do to you if you ate me:"*
 
 **Scene 2: Rapid Proof 1 - Neural Speed (5–12s)**
 *   *Layer 1 Constraint:* Pattern interrupt/scene variation every 3-5 seconds. 1 core idea per 5s.
 *   **Visual/Action:** Jump cut to a new angle or background. Publisher physically points to the label.
 *   **On-Screen Text (5s):** "High EPA/DHA = Fluid Cells"
-*   **Voiceover:** *"First, my high EPA and DHA makes your cells fluid. Your neural pathways become high-speed lanes, making your thinking faster."*
+*   **Voiceover:** *"First, my high EPA and DHA makes your cells fluid. Your neural pathways become high-speed lanes. That heavy brain fog? Gone."*
 
 **Scene 3: Rapid Proof 2 - The Energy Baseline (12–18s)**
 *   *Layer 1 Constraint:* Scene variation. Visual proof/mechanism.
@@ -87,3 +87,32 @@ Get my clinical-grade formula at AnthroposCity.com/shop."
 2.  **Creative Friction**: Which part of this script was hardest to visually execute?
 3.  **Hook Variations**: Did you record multiple hooks? If so, list them.
 4.  **Length & Word Count**: Final video duration and exact word count used.
+
+---
+
+## 6. The "Layer 1" Refined Script
+*This version aggressively tightens the writing to physically adhere to the structural constraints, making it punchier, faster to read, and mapped precisely to 3-5 second windows.*
+
+**The Hook (0–5s) — (Disruption + Relevance Framing)**
+
+"I make up 40% of your brain. But you're probably starving me." *(Wait, what? Disruption achieved. We drop the slow "here's what I'd do if you ate me" to get straight to the shock).*
+
+**Demonstration 1 (5–10s) — (Mechanism / 1 Idea)**
+
+"If you take my clinical-grade EPA and DHA, your cells literally turn fluid." *(We moved the "moat" up to the front, instantly validating the mechanism).*
+
+**Demonstration 2 (10–15s) — (Pacing / 1 Idea)**
+
+"Your neural pathways become high-speed lanes. That heavy brain fog? Gone." *(Short, punchy sentences. Perfect for a 5-second jump cut segment).*
+
+**Demonstration 3 (15–20s) — (Pacing / 1 Idea)**
+
+"Your daily energy baseline resets, completely killing your 3 PM crash." *(Removed "mitochondria" to reduce cognitive load—respecting the 1 idea per 5s rule. Focus purely on the macro-outcome).*
+
+**Demonstration 4 (20–25s) — (Pacing / 1 Idea)**
+
+"And your dopamine stabilizes, stopping those random sugar cravings." *(Removed "doomscrolling" to keep the core idea strictly biological/chemical).*
+
+**The Close (25–30s) — (Explicit CTA + Highest Desire Frame)**
+
+"Stop starving your brain. Get my formula at AnthroposCity.com/shop." *(Cycles back to the hook's disruption for a closed narrative loop).*
