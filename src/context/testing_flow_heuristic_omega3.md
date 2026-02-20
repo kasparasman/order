@@ -116,3 +116,15 @@ Get my clinical-grade formula at AnthroposCity.com/shop."
 **The Close (25–30s) — (Explicit CTA + Highest Desire Frame)**
 
 "Stop starving your brain. Get my formula at AnthroposCity.com/shop." *(Cycles back to the hook's disruption for a closed narrative loop).*
+
+***
+
+## 7. Raw Script (For Teleprompter/Execution)
+*No comments, no pacing markers—just the exact text to read:*
+
+"I make up 40% of your brain. But you're probably starving me. 
+If you take my clinical-grade EPA and DHA, your cells literally turn fluid. 
+Your neural pathways become high-speed lanes. That heavy brain fog? Gone. 
+Your daily energy baseline resets, completely killing your 3 PM crash. 
+And your dopamine stabilizes, stopping those random sugar cravings. 
+Stop starving your brain. Get my formula at AnthroposCity.com/shop."
