@@ -131,48 +131,54 @@ Stop starving your brain. Get my formula at AnthroposCity.com/shop."
 
 ***
 
-## 8. AI Visual Generation Brief (Asset Mapping)
-*This is the direct prompt strategy and visual mapping for AI Video Generation (Midjourney -> Runway / Pika / Sora). The goal is hyper-realistic, premium macro-biology mixed with Anthropos dark-mode aesthetics.*
+## 8. AI Visual Generation Brief (VARC Protocol Mapping)
+
+*This is the direct prompt strategy for AI Video Generation (Midjourney -> Runway / Pika / Sora) mapped to the VARC framework. The goal is hyper-realistic, premium macro-biology mixed with Anthropos dark-mode aesthetics.*
 
 **Global Visual Style (The "Aesthetic"):**
 *   **Vibe:** Premium Cyber-Biology, sleek, dark mode, high-tech science.
 *   **Lighting:** Moody, noir, high contrast, studio rim lighting. Neon accents (cyan/gold).
 *   **Textures:** Ultra-premium glass, glowing liquids, smooth biological structures. 
-*   **Camera:** Cinematic macro shots, shallow depth of field (blurry backgrounds to focus on text/subject).
+*   **Camera:** Cinematic macro shots, shallow depth of field.
 
 ### 🎬 Scene 1: The Hook (0–5s)
 *   **Audio:** *"I make up 40% of your brain. But you're probably starving me."*
-*   **Visual Concept:** The "Bottle Persona" Intro.
-*   **Action for AI:** Extreme close-up hero shot of the Anthropos Omega-3 bottle standing on a sleek obsidian glass table. A single, glowing, perfectly translucent golden capsule drops into frame in slow motion. 
-*   **Motion Trigger:** Slow-motion drop physics, liquid light reflecting inside the capsule, slow push-in.
+*   **V — Value State:** The viewer currently experiences hidden brain starvation and fog.
+*   **A — Amplification:** Visually representing the brain network as a dehydrated, rigid, or starved dark structure, dropping a single glowing, perfectly translucent golden capsule (the Omega-3) into the frame as the only source of fuel.
+*   **R — Resolution Mechanism:** The introduction of the golden capsule, representing the missing 40% of the required lipid structure.
+*   **C — Command Cue:** "Realize your brain is starving. Pay attention to the payload."
 
 ### 🎬 Scene 2: The Mechanism (5–10s)
 *   **Audio:** *"If you take my clinical-grade EPA and DHA, your cells literally turn fluid."*
-*   **Visual Concept:** The Structural Upgrade.
-*   **Action for AI:** Seamless macroscopic zoom *into* the golden capsule, dissolving into a hyper-detailed cellular view. A rigid, dry, frozen crystalline wall suddenly melts into a smooth, breathing, wet, and fluid membrane.
-*   **Motion Trigger:** Morphing texture (frozen to liquid), amber light flooding the scene, soft undulating motion.
+*   **V — Value State:** The viewer's cellular membranes are rigid and slow.
+*   **A — Amplification:** Showing a macro-cellular wall looking dry, crystalline, and impenetrable—like cracked ice. 
+*   **R — Resolution Mechanism:** Liquid amber light (the EPA/DHA) flooding the rigid structure, instantly melting it into an undulating, breathing, and hyper-fluid membrane.
+*   **C — Command Cue:** "Fluidity is the prerequisite to all biological repair."
 
 ### 🎬 Scene 3: Neural Speed (10–15s)
 *   **Audio:** *"Your neural pathways become high-speed lanes. That heavy brain fog? Gone."*
-*   **Visual Concept:** The Freeway.
-*   **Action for AI:** Move deep into a glowing neural network. Bright, clean electric light pulses shoot rapidly down smooth, flexible bio-cables. As the light shoots through, it instantly burns away a thick, smoky dark haze ("fog").
-*   **Motion Trigger:** High-speed travel (tunnel effect), smoke dissipating rapidly, electric neuron firing loops.
+*   **V — Value State:** The viewer experiences slow thinking and cognitive resistance.
+*   **A — Amplification:** A thick, smoky dark haze ("fog") choking a neural network, slowing down the electrical pulses.
+*   **R — Resolution Mechanism:** Intense, clean electric light pulses shooting rapidly down bio-cables, burning away the dark haze instantly and firing at high velocity.
+*   **C — Command Cue:** "Free your processing speed."
 
 ### 🎬 Scene 4: Energy Baseline (15–20s)
 *   **Audio:** *"Your daily energy baseline resets, completely killing your 3 PM crash."*
-*   **Visual Concept:** The Reactor.
-*   **Action for AI:** Abstract biological power. A sleek, conceptual mitochondrion glowing with pristine, stable blue/white energy. There is no flickering—just pure, continuous, heavy humming power.
-*   **Motion Trigger:** Sustained glowing aura, extremely slow and confident rotation, infinite looping pulse.
+*   **V — Value State:** The viewer dreads the inevitable afternoon energy collapse.
+*   **A — Amplification:** A flickering, struggling biological power core (mitochondria) almost sparking out.
+*   **R — Resolution Mechanism:** The core stabilizes into a pristine, glowing blue/white reactor, humming with heavy, continuous, infinite power. No flickering.
+*   **C — Command Cue:** "Achieve infinite, stable power."
 
 ### 🎬 Scene 5: Dopamine Stability (20–25s)
 *   **Audio:** *"And your dopamine stabilizes, stopping those random sugar cravings."*
-*   **Visual Concept:** Perfect Chemistry.
-*   **Action for AI:** Conceptually satisfying geometry. Glowing, perfectly spherical golden droplets (representing dopamine) falling in perfect rhythmic alignment onto a minimalist dark surface. It looks incredibly calming and structured.
-*   **Motion Trigger:** Symmetrical alignment, anti-gravity floating, visually satisfying "snap into place" movement.
+*   **V — Value State:** The viewer feels chaotic biological urges (cravings, doomscrolling).
+*   **A — Amplification:** Chaotic visual geometry—erratic, bouncing, and unstable biochemical structures.
+*   **R — Resolution Mechanism:** Glowing, perfectly spherical golden droplets falling into exact rhythmic, symmetrical alignment. Complete, visually satisfying chemistry and structural order.
+*   **C — Command Cue:** "Regain complete biological control."
 
 ### 🎬 Scene 6: The Close (25–30s)
 *   **Audio:** *"Stop starving your brain. Get my formula at AnthroposCity.com/shop."*
-*   **Visual Concept:** The Authority Anchor.
-*   **Action for AI:** Snap cut back to the real world. A wide, powerful hero shot of the bottle. The lighting specifically illuminates the label to imply "clinical grade." A high-tech sweep of rim light runs over the premium glass.
-*   **Motion Trigger:** Slow dramatic pan over the label text, light streak reflection on glass, locked-off authority shot.
-
+*   **V — Value State:** The viewer is ready to resolve their pain but lacks the exact tool.
+*   **A — Amplification:** Focusing on the elite, clinical quality of the physical bottle, distinguishing it from cheap/generic competitors via lighting and texture.
+*   **R — Resolution Mechanism:** A high-tech sweep of rim light running over the premium glass and label, anchoring the ultimate biological solution in physical reality.
+*   **C — Command Cue:** "Acquire the clinical-grade tool immediately."
