@@ -128,3 +128,51 @@ Your neural pathways become high-speed lanes. That heavy brain fog? Gone.
 Your daily energy baseline resets, completely killing your 3 PM crash. 
 And your dopamine stabilizes, stopping those random sugar cravings. 
 Stop starving your brain. Get my formula at AnthroposCity.com/shop."
+
+***
+
+## 8. AI Visual Generation Brief (Asset Mapping)
+*This is the direct prompt strategy and visual mapping for AI Video Generation (Midjourney -> Runway / Pika / Sora). The goal is hyper-realistic, premium macro-biology mixed with Anthropos dark-mode aesthetics.*
+
+**Global Visual Style (The "Aesthetic"):**
+*   **Vibe:** Premium Cyber-Biology, sleek, dark mode, high-tech science.
+*   **Lighting:** Moody, noir, high contrast, studio rim lighting. Neon accents (cyan/gold).
+*   **Textures:** Ultra-premium glass, glowing liquids, smooth biological structures. 
+*   **Camera:** Cinematic macro shots, shallow depth of field (blurry backgrounds to focus on text/subject).
+
+### 🎬 Scene 1: The Hook (0–5s)
+*   **Audio:** *"I make up 40% of your brain. But you're probably starving me."*
+*   **Visual Concept:** The "Bottle Persona" Intro.
+*   **Action for AI:** Extreme close-up hero shot of the Anthropos Omega-3 bottle standing on a sleek obsidian glass table. A single, glowing, perfectly translucent golden capsule drops into frame in slow motion. 
+*   **Motion Trigger:** Slow-motion drop physics, liquid light reflecting inside the capsule, slow push-in.
+
+### 🎬 Scene 2: The Mechanism (5–10s)
+*   **Audio:** *"If you take my clinical-grade EPA and DHA, your cells literally turn fluid."*
+*   **Visual Concept:** The Structural Upgrade.
+*   **Action for AI:** Seamless macroscopic zoom *into* the golden capsule, dissolving into a hyper-detailed cellular view. A rigid, dry, frozen crystalline wall suddenly melts into a smooth, breathing, wet, and fluid membrane.
+*   **Motion Trigger:** Morphing texture (frozen to liquid), amber light flooding the scene, soft undulating motion.
+
+### 🎬 Scene 3: Neural Speed (10–15s)
+*   **Audio:** *"Your neural pathways become high-speed lanes. That heavy brain fog? Gone."*
+*   **Visual Concept:** The Freeway.
+*   **Action for AI:** Move deep into a glowing neural network. Bright, clean electric light pulses shoot rapidly down smooth, flexible bio-cables. As the light shoots through, it instantly burns away a thick, smoky dark haze ("fog").
+*   **Motion Trigger:** High-speed travel (tunnel effect), smoke dissipating rapidly, electric neuron firing loops.
+
+### 🎬 Scene 4: Energy Baseline (15–20s)
+*   **Audio:** *"Your daily energy baseline resets, completely killing your 3 PM crash."*
+*   **Visual Concept:** The Reactor.
+*   **Action for AI:** Abstract biological power. A sleek, conceptual mitochondrion glowing with pristine, stable blue/white energy. There is no flickering—just pure, continuous, heavy humming power.
+*   **Motion Trigger:** Sustained glowing aura, extremely slow and confident rotation, infinite looping pulse.
+
+### 🎬 Scene 5: Dopamine Stability (20–25s)
+*   **Audio:** *"And your dopamine stabilizes, stopping those random sugar cravings."*
+*   **Visual Concept:** Perfect Chemistry.
+*   **Action for AI:** Conceptually satisfying geometry. Glowing, perfectly spherical golden droplets (representing dopamine) falling in perfect rhythmic alignment onto a minimalist dark surface. It looks incredibly calming and structured.
+*   **Motion Trigger:** Symmetrical alignment, anti-gravity floating, visually satisfying "snap into place" movement.
+
+### 🎬 Scene 6: The Close (25–30s)
+*   **Audio:** *"Stop starving your brain. Get my formula at AnthroposCity.com/shop."*
+*   **Visual Concept:** The Authority Anchor.
+*   **Action for AI:** Snap cut back to the real world. A wide, powerful hero shot of the bottle. The lighting specifically illuminates the label to imply "clinical grade." A high-tech sweep of rim light runs over the premium glass.
+*   **Motion Trigger:** Slow dramatic pan over the label text, light streak reflection on glass, locked-off authority shot.
+
