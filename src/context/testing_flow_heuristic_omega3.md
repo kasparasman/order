@@ -131,54 +131,62 @@ Stop starving your brain. Get my formula at AnthroposCity.com/shop."
 
 ***
 
-## 8. AI Visual Generation Brief (VARC Protocol Mapping)
+## 8. AI Visual Generation Brief (B-O-T / Layer-1 Protocol)
 
-*This is the direct prompt strategy for AI Video Generation (Midjourney -> Runway / Pika / Sora) mapped to the VARC framework. The goal is hyper-realistic, premium macro-biology mixed with Anthropos dark-mode aesthetics.*
+*This is the direct AI Video Generation Prompt Map. It merges the **Layer-1 Structural Constraints** (timing, cuts, overlays) with the **B-O-T System** (Bottle – Outcome – Truth) to ensure every 5-second segment operates as a complete, algorithm-compliant sales argument.*
 
-**Global Visual Style (The "Aesthetic"):**
-*   **Vibe:** Premium Cyber-Biology, sleek, dark mode, high-tech science.
-*   **Lighting:** Moody, noir, high contrast, studio rim lighting. Neon accents (cyan/gold).
-*   **Textures:** Ultra-premium glass, glowing liquids, smooth biological structures. 
-*   **Camera:** Cinematic macro shots, shallow depth of field.
+**The Visual Argument System (B-O-T):**
+Every visual prompt must contain:
+1.  **B (Bottle):** Physical action, gesture, or hero presence of the Anthropos Omega-3 bottle.
+2.  **O (Outcome):** Visual representation of the state shift (brain fog lifting, energy stabilizing, cravings stopping).
+3.  **T (Truth Cue):** The hard mechanism or label proof (fluidity animation, "clinical-grade" text).
 
-### 🎬 Scene 1: The Hook (0–5s)
+**Global Render Style:** Hyper-realistic, premium cyber-biology, dark mode, moody lighting, cyan/gold neon accents.
+
+### 🎬 Scene 1: The Hook Window (0–5s)
 *   **Audio:** *"I make up 40% of your brain. But you're probably starving me."*
-*   **V — Value State:** The viewer currently experiences hidden brain starvation and fog.
-*   **A — Amplification:** Visually representing the brain network as a dehydrated, rigid, or starved dark structure, dropping a single glowing, perfectly translucent golden capsule (the Omega-3) into the frame as the only source of fuel.
-*   **R — Resolution Mechanism:** The introduction of the golden capsule, representing the missing 40% of the required lipid structure.
-*   **C — Command Cue:** "Realize your brain is starving. Pay attention to the payload."
+*   **Layer-1 Rule:** Major persuasive energy by 0-6s. Action immediately. Text by ≤3s.
+*   **B (Bottle):** Extreme close-up of the bottle appearing suddenly out of heavy shadow. A single, glowing golden capsule floats forward.
+*   **O (Outcome):** The background is a "starving," dry, gray, and rigid biological structure trying to reach the golden capsule.
+*   **T (Truth Cue):** Visually framing the capsule as pure bio-fuel.
+*   *Text Overlay (On screen immediately):* "I make up 40% of your brain."
 
 ### 🎬 Scene 2: The Mechanism (5–10s)
 *   **Audio:** *"If you take my clinical-grade EPA and DHA, your cells literally turn fluid."*
-*   **V — Value State:** The viewer's cellular membranes are rigid and slow.
-*   **A — Amplification:** Showing a macro-cellular wall looking dry, crystalline, and impenetrable—like cracked ice. 
-*   **R — Resolution Mechanism:** Liquid amber light (the EPA/DHA) flooding the rigid structure, instantly melting it into an undulating, breathing, and hyper-fluid membrane.
-*   **C — Command Cue:** "Fluidity is the prerequisite to all biological repair."
+*   **Layer-1 Rule:** Pattern interrupt. Scene variation. Mechanism revealed.
+*   **B (Bottle):** The bottle rotates to sharply reflect a rim light across the "EPA / DHA" label.
+*   **O (Outcome):** The frozen, rigid cellular background suddenly melts, becoming incredibly fluid, wet, and glowing.
+*   **T (Truth Cue):** The geometric transition from rigid ice to liquid amber, visually proving the structural upgrade.
+*   *Text Overlay (5s):* "Clinical-Grade Fluidity"
 
 ### 🎬 Scene 3: Neural Speed (10–15s)
 *   **Audio:** *"Your neural pathways become high-speed lanes. That heavy brain fog? Gone."*
-*   **V — Value State:** The viewer experiences slow thinking and cognitive resistance.
-*   **A — Amplification:** A thick, smoky dark haze ("fog") choking a neural network, slowing down the electrical pulses.
-*   **R — Resolution Mechanism:** Intense, clean electric light pulses shooting rapidly down bio-cables, burning away the dark haze instantly and firing at high velocity.
-*   **C — Command Cue:** "Free your processing speed."
+*   **Layer-1 Rule:** 1 core idea max per 5s limit. Visual Proof.
+*   **B (Bottle):** Golden liquid trailing from the capsule directly into the neural network.
+*   **O (Outcome):** A thick, smoky dark haze ("fog") is blown away instantly by high-speed light pulses shooting down the bio-cables.
+*   **T (Truth Cue):** The sheer, visible velocity of the electric light pulses, framing speed as the biological truth.
+*   *Text Overlay (10s):* "Brain Fog: Gone."
 
 ### 🎬 Scene 4: Energy Baseline (15–20s)
 *   **Audio:** *"Your daily energy baseline resets, completely killing your 3 PM crash."*
-*   **V — Value State:** The viewer dreads the inevitable afternoon energy collapse.
-*   **A — Amplification:** A flickering, struggling biological power core (mitochondria) almost sparking out.
-*   **R — Resolution Mechanism:** The core stabilizes into a pristine, glowing blue/white reactor, humming with heavy, continuous, infinite power. No flickering.
-*   **C — Command Cue:** "Achieve infinite, stable power."
+*   **Layer-1 Rule:** Scene variation. 1 core idea.
+*   **B (Bottle):** The bottle sitting stoically next to a glowing, fully charged biological power core.
+*   **O (Outcome):** A struggling, flickering blue biological light suddenly locks into a pristine, heavy, continuous beam of infinite power (no crash).
+*   **T (Truth Cue):** The absolute visual stability of the power core (mitochondria), showing mechanical reliability.
+*   *Text Overlay (15s):* "Kills the 3 PM Crash"
 
 ### 🎬 Scene 5: Dopamine Stability (20–25s)
 *   **Audio:** *"And your dopamine stabilizes, stopping those random sugar cravings."*
-*   **V — Value State:** The viewer feels chaotic biological urges (cravings, doomscrolling).
-*   **A — Amplification:** Chaotic visual geometry—erratic, bouncing, and unstable biochemical structures.
-*   **R — Resolution Mechanism:** Glowing, perfectly spherical golden droplets falling into exact rhythmic, symmetrical alignment. Complete, visually satisfying chemistry and structural order.
-*   **C — Command Cue:** "Regain complete biological control."
+*   **Layer-1 Rule:** Pattern interrupt. Core outcome visual.
+*   **B (Bottle):** The bottle's golden reflection acts as the visual anchor in the center of the frame.
+*   **O (Outcome):** Erratic, chaotic geometry (representing cravings) snapping perfectly into symmetrical, calm, perfectly aligned golden spheres.
+*   **T (Truth Cue):** Rhythmic, mathematical alignment representing perfect chemical control.
+*   *Text Overlay (20s):* "Stops Sugar Cravings"
 
 ### 🎬 Scene 6: The Close (25–30s)
 *   **Audio:** *"Stop starving your brain. Get my formula at AnthroposCity.com/shop."*
-*   **V — Value State:** The viewer is ready to resolve their pain but lacks the exact tool.
-*   **A — Amplification:** Focusing on the elite, clinical quality of the physical bottle, distinguishing it from cheap/generic competitors via lighting and texture.
-*   **R — Resolution Mechanism:** A high-tech sweep of rim light running over the premium glass and label, anchoring the ultimate biological solution in physical reality.
-*   **C — Command Cue:** "Acquire the clinical-grade tool immediately."
+*   **Layer-1 Rule:** Explicit CTA in final 20-30%. Highest Desire Frame surfaced.
+*   **B (Bottle):** The ultimate hero shot. Cinematic slow push-in, dark cyan background, golden light hitting the glass.
+*   **O (Outcome):** A feeling of premium, ultimate control and luxury biology. 
+*   **T (Truth Cue):** Maximum legibility on the label, projecting absolute clinical authority.
+*   *Text Overlay (25s):* "Get Clinical-Grade 👉 AnthroposCity.com/shop"
