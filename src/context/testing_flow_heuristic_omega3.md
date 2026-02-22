@@ -133,11 +133,11 @@ Stop starving your brain. Get my formula at AnthroposCity.com/shop."
 
 ## 8. AI Visual Generation Brief (B-O-T / Layer-1 Protocol)
 
-*This is the direct AI Video Generation Prompt Map. It merges the **Layer-1 Structural Constraints** (timing, cuts, overlays) with the **B-O-T System** (Bottle – Outcome – Truth) to ensure every 5-second segment operates as a complete, algorithm-compliant sales argument.*
+*This is the direct AI Video Generation Prompt Map. It merges the **Layer-1 Structural Constraints** (timing, cuts, overlays) with the **B-O-T System** (Bottle – Outcome – Truth). Crucially, the Bottle is NOT a prop—it is the sentient AI Persona and Presenter of the video.*
 
 **The Visual Argument System (B-O-T):**
 Every visual prompt must contain:
-1.  **B (Bottle):** Physical action, gesture, or hero presence of the Anthropos Omega-3 bottle.
+1.  **B (Bottle / Persona):** The Anthropos Omega-3 bottle acting as the active presenter (e.g., pulsing to the voiceover audio, hovering with authority, or displaying holographic AI interfaces).
 2.  **O (Outcome):** Visual representation of the state shift (brain fog lifting, energy stabilizing, cravings stopping).
 3.  **T (Truth Cue):** The hard mechanism or label proof (fluidity animation, "clinical-grade" text).
 
@@ -146,15 +146,15 @@ Every visual prompt must contain:
 ### 🎬 Scene 1: The Hook Window (0–5s)
 *   **Audio:** *"I make up 40% of your brain. But you're probably starving me."*
 *   **Layer-1 Rule:** Major persuasive energy by 0-6s. Action immediately. Text by ≤3s.
-*   **B (Bottle):** Extreme close-up of the bottle appearing suddenly out of heavy shadow. A single, glowing golden capsule floats forward.
-*   **O (Outcome):** The background is a "starving," dry, gray, and rigid biological structure trying to reach the golden capsule.
-*   **T (Truth Cue):** Visually framing the capsule as pure bio-fuel.
+*   **B (Bottle/Persona):** Extreme close-up of the bottle appearing suddenly out of heavy shadow. It hovers as the active "Host." A subtle cyan audio-ring pulses around its cap in sync with the voiceover.
+*   **O (Outcome):** The background is a "starving," dry, gray, and rigid biological structure attempting to reach the bottle.
+*   **T (Truth Cue):** Visually framing the bottle as the sentient controller of the bio-fuel.
 *   *Text Overlay (On screen immediately):* "I make up 40% of your brain."
 
 ### 🎬 Scene 2: The Mechanism (5–10s)
 *   **Audio:** *"If you take my clinical-grade EPA and DHA, your cells literally turn fluid."*
 *   **Layer-1 Rule:** Pattern interrupt. Scene variation. Mechanism revealed.
-*   **B (Bottle):** The bottle rotates to sharply reflect a rim light across the "EPA / DHA" label.
+*   **B (Bottle/Persona):** The bottle rotates aggressively to "point" its EPA/DHA label at the camera, projecting a hologram of the biological mechanism. 
 *   **O (Outcome):** The frozen, rigid cellular background suddenly melts, becoming incredibly fluid, wet, and glowing.
 *   **T (Truth Cue):** The geometric transition from rigid ice to liquid amber, visually proving the structural upgrade.
 *   *Text Overlay (5s):* "Clinical-Grade Fluidity"
@@ -162,7 +162,7 @@ Every visual prompt must contain:
 ### 🎬 Scene 3: Neural Speed (10–15s)
 *   **Audio:** *"Your neural pathways become high-speed lanes. That heavy brain fog? Gone."*
 *   **Layer-1 Rule:** 1 core idea max per 5s limit. Visual Proof.
-*   **B (Bottle):** Golden liquid trailing from the capsule directly into the neural network.
+*   **B (Bottle/Persona):** The bottle floats confidently as it fires golden liquid directly from itself into the neural network background.
 *   **O (Outcome):** A thick, smoky dark haze ("fog") is blown away instantly by high-speed light pulses shooting down the bio-cables.
 *   **T (Truth Cue):** The sheer, visible velocity of the electric light pulses, framing speed as the biological truth.
 *   *Text Overlay (10s):* "Brain Fog: Gone."
@@ -170,7 +170,7 @@ Every visual prompt must contain:
 ### 🎬 Scene 4: Energy Baseline (15–20s)
 *   **Audio:** *"Your daily energy baseline resets, completely killing your 3 PM crash."*
 *   **Layer-1 Rule:** Scene variation. 1 core idea.
-*   **B (Bottle):** The bottle sitting stoically next to a glowing, fully charged biological power core.
+*   **B (Bottle/Persona):** The bottle hovering like an overseer next to a glowing, fully charged biological power core, its neon accents matching the core's energy.
 *   **O (Outcome):** A struggling, flickering blue biological light suddenly locks into a pristine, heavy, continuous beam of infinite power (no crash).
 *   **T (Truth Cue):** The absolute visual stability of the power core (mitochondria), showing mechanical reliability.
 *   *Text Overlay (15s):* "Kills the 3 PM Crash"
@@ -178,15 +178,15 @@ Every visual prompt must contain:
 ### 🎬 Scene 5: Dopamine Stability (20–25s)
 *   **Audio:** *"And your dopamine stabilizes, stopping those random sugar cravings."*
 *   **Layer-1 Rule:** Pattern interrupt. Core outcome visual.
-*   **B (Bottle):** The bottle's golden reflection acts as the visual anchor in the center of the frame.
-*   **O (Outcome):** Erratic, chaotic geometry (representing cravings) snapping perfectly into symmetrical, calm, perfectly aligned golden spheres.
-*   **T (Truth Cue):** Rhythmic, mathematical alignment representing perfect chemical control.
+*   **B (Bottle/Persona):** The bottle acts as the visual anchor and "conductor" in the center of the frame, bringing order to the visual chaos around it.
+*   **O (Outcome):** Erratic, chaotic geometry (representing cravings) snapping perfectly into symmetrical, calm, perfectly aligned golden spheres around the bottle.
+*   **T (Truth Cue):** Rhythmic, mathematical alignment representing perfect chemical control directed by the Persona.
 *   *Text Overlay (20s):* "Stops Sugar Cravings"
 
 ### 🎬 Scene 6: The Close (25–30s)
 *   **Audio:** *"Stop starving your brain. Get my formula at AnthroposCity.com/shop."*
 *   **Layer-1 Rule:** Explicit CTA in final 20-30%. Highest Desire Frame surfaced.
-*   **B (Bottle):** The ultimate hero shot. Cinematic slow push-in, dark cyan background, golden light hitting the glass.
+*   **B (Bottle/Persona):** The ultimate hero shot. Cinematic slow push-in on the "Presenter." The cyan audio-ring pulses confidently one last time before fading to the CTA.
 *   **O (Outcome):** A feeling of premium, ultimate control and luxury biology. 
 *   **T (Truth Cue):** Maximum legibility on the label, projecting absolute clinical authority.
 *   *Text Overlay (25s):* "Get Clinical-Grade 👉 AnthroposCity.com/shop"
