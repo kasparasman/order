@@ -101,6 +101,5 @@ phase_9_final_order_assembly:
     ## SECTION 3 — MARKET LANGUAGE BANKS (symptom / objection / trust)
     ## SECTION 4 — PRODUCT TRUTH ANCHORS (facts + review proof + claim flags)
     ## SECTION 5 — SINGLE REASON TO WIN (belief break + mechanism)
-    ## SECTION 6 — SCRIPT PACK (6 hooks + master body + close CTA)
   agent: manager
   output_file: 'final_order.md'

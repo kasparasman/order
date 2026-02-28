@@ -2,7 +2,17 @@ from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
 from crewai.agents.agent_builder.base_agent import BaseAgent
 from crewai_tools import ScrapeWebsiteTool, SerperDevTool
-from typing import List
+from typing import List, Tuple, Any
+from crewai.tasks.task_output import TaskOutput
+
+def validate_character_limit(result: TaskOutput) -> Tuple[bool, Any]:
+    """Guardrail to enforce 5,500 character limit on the final output."""
+    if len(result.raw) > 5500:
+        return (
+            False, 
+            f"Wait, your output is {len(result.raw)} characters long. It MUST be strictly under 5,500 characters. Please edit it down and shorten it while preserving the necessary formatting and core narrative."
+        )
+    return (True, result.raw)
 
 @CrewBase
 class AnthroposOrder():
@@ -139,7 +149,9 @@ class AnthroposOrder():
                 self.phase_4_srw_selection(),
                 self.phase_6_script_pack_generation(),
                 self.phase_8_physics_audit()
-            ]
+            ],
+            guardrail=validate_character_limit,
+            guardrail_max_retries=3
         )
 
     @crew

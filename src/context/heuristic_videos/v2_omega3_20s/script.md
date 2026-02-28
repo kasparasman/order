@@ -71,5 +71,13 @@ image starting keyframe:
 done
 
 veo prompt: 
-`A highly realistic continuous shot in a clean, sterile scientific laboratory. The anthropomorphized premium Omega-3 supplement bottle character stands next to a large, clear glass measuring cylinder shaped exactly like a human brain. The character looks directly at the camera with an authoritative, educational expression while actively pouring thick, rich golden yellow fat from a beaker into the brain cylinder, filling it up exactly to the 60% measurement line. At the precise moment he says "9 out of 10 Americans", the video rapidly flashes a 1-second stark, raw B-roll photograph overlay of an exhausted, miserable mob of brain-fogged Americans. The camera instantly snaps back to the bottle character finishing his pour in the laboratory in a seamless, fluid motion. | Cinematic depth of field, realistic liquid fluid simulation. | Bright, sterile laboratory lighting, hyperrealistic 8k.`
+`A highly realistic continuous shot in a clean, sterile scientific laboratory. The anthropomorphized premium Omega-3 supplement bottle character stands next to a large, clear glass shaped exactly like a human brain. The character looks directly at the camera with a positive, educational expression while actively pouring thick, rich golden yellow fat from a beaker into the brain glass, filling it up. He says this line in a fast tiktok hook pace: "Your brain is 60% fat. But 9 out of 10 Americans starve it with junk, so it runs like this...". Cinematic depth of field, realistic liquid fluid simulation. | Bright, sterile laboratory lighting, hyperrealistic 8k.`
 
+Scene 2:
+quick image overlay - already done
+video of pouring engine and sludge...
+starting keyframe done,
+veo prompt:
+A hyper-realistic, cinematic, continuous, and steady close-up camera shot from a new angle focusing on an anthropomorphized premium Omega-3 supplement bottle character with arms and an expressive face. Thhe bottle persona character actively pours thick, grey, disgusting fast-food sludge from a greasy fryer basket directly into the top intake manifold of the gleaming chrome brain-engine. The very moment the sludge hits the intake, the engine violently sputters, visibly chokes, and rapidly morphs, instantly corroding, losing its shine, and rusting completely over in seconds to transform into a decrepit, smoking, old rust bucket brain shaped engine that spits out a pathetic puff of thick dark exhaust.
+
+scene 3
